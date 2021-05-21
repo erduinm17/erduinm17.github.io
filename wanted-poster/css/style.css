@@ -166,11 +166,11 @@ span{
 /* Footer */
 
 footer {
+  border-top:2rem;
+  border-top-style: solid;
+  border-top-color:#333;
   padding-left:1rem;
   padding-right:1rem;
   padding-top:1rem;
   padding-bottom:1rem;
-  width:2rem;
-  style:solid;
-  color:#333;
 }
