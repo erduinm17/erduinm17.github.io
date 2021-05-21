@@ -48,7 +48,7 @@ main {
    to get an idea of some of the style properties you will need to use; then
    complete the style code according to the instructions in Canvas. */
 
-/* NOTE: While you will be using some of the same CSS properties, the VALUES 
+/* NOTE: While you will be using some of the same CSS properties, the VALUES
    may need to be different in order to style the page correctly. */
 
 
@@ -64,16 +64,113 @@ h1 {
     font-family:'Alfa Slab One', Garamond, serif;
     text-align:center;
 }
+h2 {
+  text-shadow:.09375rem .09375rem .09375rem #000;
+  color:darkred;
+  font-family:'Alfa Slab One', Garamond, serif;
+  margin:0;
+  text-align:center;
+  text-transform:uppercase;
+  font-size: 3rem;
+  letter-spacing: 0.25rem;
+  font-weight:normal;
+}
+
+h3 {
+  text-shadow:.09375rem .09375rem .09375rem;
+  color:black;
+  font-family:'Alfa Slab One', Garamond, serif;
+  margin:0;
+  text-align:center;
+  text-transform:uppercase;
+  font-size:2rem;
+  font-weight:normal;
+}
+h4 {
+  text-shadow:.09375rem .09375rem .09375rem #000;
+  color:darkred;
+  font-family:'Alfa Slab One', Garamond, serif;
+  margin:0;
+  text-align:center;
+  text-transform:uppercase;
+  font-size:1.5rem;
+  letter-spacing:0.25rem;
+  padding-bottom:1.125rem;
+  font-weight:normal;
+
+}
+h5 {
+  text-transform: uppercase;
+  margin: 0;
+  letter-spacing: .5rem;
+  color:#FFF;
+  text-shadow:.09375rem .09375rem .09375rem #333;
+  font-family:'Alfa Slab One', Garamond, serif;
+  text-align:center;
+  font-size:1rem;
+  margin-top:0.25rem;
+  padding-top:0.5rem;
+  padding-bottom:0.5rem;
+  padding-left:0.5rem;
+  padding-right:0.5rem;
+  font-weight:normal;
+}
 
 
 /* Section & Paragraph */
 
+section {
+  margin-top:0.5rem;
+}
 
+p {
+  margin-top:1rem;
+  margin-bottom:1rem;
+  margin-left:auto;
+  margin-right:auto;
+  padding-top:0;
+  padding-bottom:0;
+  padding-left:1rem;
+  padding-right:1rem;
+  width:90%;
+  text-align:left;
+}
 
 /* Image & Figure */
 
+img {
+  width:100%;
+  margin-bottom:0;
+  margin-top:0;
+  margin-left:auto;
+  margin-right:auto;
+  max-width:50rem;
+}
 
+figure {
+  margin-bottom:2rem;
+}
 
+figcaption {
+  padding-top:0.5rem;
+  text-align:right;
+
+}
+
+span{
+  padding-top:0;
+  padding-bottom:0;
+  padding-left:0.5rem;
+  padding-right:0.5rem;
+}
 /* Footer */
 
-
+footer {
+  padding-left:1rem;
+  padding-right:1rem;
+  padding-top:1rem;
+  padding-bottom:1rem;
+  width:2rem;
+  style:solid;
+  color:#333;
+}
