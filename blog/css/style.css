@@ -62,10 +62,7 @@ position: relative;
 max-width: 95%;
 }
 
-/*body {
-    margin: 1.5rem auto;
-    width:90%;
-}*/
+
 
 @font-face{
     font-family:sansfont1;
@@ -91,11 +88,7 @@ max-width: 95%;
     font-style:normal;
 }
 
-/*.highlight{
-    background-color: firebrick;
-    color: beige;
 
-}*/
 
 h1 {
     transform: rotate(-9deg);
@@ -106,9 +99,9 @@ word-spacing: 0.125rem;
 }
 
 h1>span {
-    display: inline-block;
-    background-color: gray;
-    color: goldenrod;
+    display:inline-block;
+    background-color: Green;
+    color: blue;
 }
 
 
@@ -129,12 +122,12 @@ nav a {
 
 nav a:focus,
 nav a:hover:{
-    color: dimgray;
-    background-color: goldenrod;
+    color: Green;
+    background-color: blue;
 }
 
 nav a:hover:not(.active){
-background-color:goldenrod;
+background-color:blue;
 text-decoration: line-through;
 }
 
@@ -188,14 +181,7 @@ margin-inline-end-30px:
     justify-content: space-between;
 }
 
-/*.right {
-  width: 15%;
-}*/
 
-/*.columnR {
-  display: flex;
-    flex-direction: column;
-}*/
 
 .asidecontent {
 	display: inline;
@@ -233,32 +219,6 @@ width: 75%;
 padding-left: 15px;
 }
 
-/*
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: White;
-
-}
-
-li {
-  float: left;
-
-}
-
-li a {
-  display: block;
-  color: blue;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-
-li a:hover:not(.active) {
-  background-color: gray;
-}*/
 
 aside {
   padding-left: 5px;
@@ -312,7 +272,3 @@ float: right;
 text-align: left;
 float: left;
 }
-
-  /*display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 1rem;*/
